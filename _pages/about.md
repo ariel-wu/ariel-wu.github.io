@@ -1,49 +1,44 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Hi, I'm Yue(Ariel) Wu. I'm a current PhD studnet at the University of Caliornia, Los Angeles primarily working with [Sriram Sankararaman](http://web.cs.ucla.edu/~sriram/). My research interests lie at the interface of machine learning and computational bioinformatics. 
 
-A data-driven personal website
+
+Previously, I have developed tools to perform large-scale inference on human genetics,and have also worked with GPS data and accelerometer data for physical activity analysis with an application in pschiactric disease prevention. The goal is to achieve precision medicine by intergrating human genetic information and machine learning techniques, where we could have targed treatment strategies that are developed for specific individuals and groups. Along my research journey, here are some key questions I'm interested:
+
+How genetic variants contribute to disease and why?
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+We all get sick. But how genomics is related to the risk of disease? Let's zoom out and first look from an entire population point of view. Then the first question I ask is, what mutation in genes make us have a higher risk of certain disease(s) than others? Secondly, we often see discrepencies among populations of disease prevalence, reported associated genes to diseases, how do we interpret this? 
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+1. [<span style="color:#db0a5b"> **Causal effects on complex traits are similar for common variants across segments of different continental ancestries within admixed individuals**</span>](https://www.nature.com/articles/s41588-023-01338-6) <br> Kangcheng Hou, Yi Ding, Ziqi Xu, __Yue Wu__, Argun Bhattacharya, Rachel Mester, Gillian Belbin, David Conti, Burcu F Darst, Myriam Fornage, Chris Gignoux, Xiuqing Guo, Christopher Haiman, Eimear Kenny, Michelle Kim, Charles Kooperberg, Leslie Lange, Ani Manichaikul, Kari E North, Natalie Nudelman, Ulrike Peters, Laura J Rasmussen-Torvik, Stephen S Rich, Jerome I Rotter, Heather E Wheeler, Ying Zhou, Sriram Sankararaman, Bogdan Pasaniuc; *Nature Genetics 2023* 
 
-Getting started
+1. [<span style="color:#db0a5b"> **Fast estimation of genetic correlation for Biobank-scale data**</span>](https://www.cell.com/ajhg/fulltext/S0002-9297(21)00427-4) <br> __Yue Wu__, Kathryn S Burch, Andrea Ganna, Paivi Pajukanta, Bogdan Pasaniuc, Sriram Sankararaman; *The American Journal of Human Genetics 2022* 
+
+1. [<span style="color:#db0a5b">**Scalable multi-component linear mixed models with application to SNP heritability estimation**</span>](https://www.nature.com/articles/s41467-020-17576-9) <br> Ali Pazokitoroudi, __Yue Wu__, Kathryn S Burch, Kangcheng Hou, Bogdan Pasaniuc, Sriram Sankararaman; *Nature Communication 2020*.
+
+1. [<span style="color:#db0a5b">**Accurate estimation of SNP-heritability from biobank-scale data irrespective of genetic architcture**</span>](https://www.nature.com/articles/s41588-019-0465-0) <br> Kangcheng Hou, Kathryn S Burch, Arunabha Majumdar, Huwenbo Shi, Nicholas Mancuso, __Yue Wu__, Sriram Sankararaman, Bogdan Pasaniuc; *Nature Genetics 2019*. 
+
+1. [<span style="color:#db0a5b"> **A scalable estimator of SNP heritability for Biobank-scale data**</span>](https://academic.oup.com/bioinformatics/article/34/13/i187/5045805)<br> __Yue Wu__, Sriram Sankararaman; *Bioinformatics 2018.* 
+
+1. [<span style="color:#db0a5b"> **A unifying framework of statistics impuatation**</span>](https://www.liebertpub.com/doi/full/10.1089/cmb.2019.0449)<br> __Yue Wu__, Eleazar Eskin, Sriram Sankararaman; *Journal of Computational Biology 2018*.
+
+2. [<span style="color:#db0a5b">**Improving imputation accuracy by inferring causal variants in genetic studies**</span>] (https://www.liebertpub.com/doi/full/10.1089/cmb.2018.0139)<br> __Yue Wu*__, Farhad Hormozdiari*, Joon Wha J.Joo, Eleazar Eskin; *Research in Computational Molecular Biology 2017*.
+
+
+
+
+#What patients respone to treatments and why?
+
+
+What affects disease progress? 
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+Now we zoom into individuals. How do patients disease journey differ? Are there genetic factor that shape the disease progression trajectory? How enviromental factor or lifestyle -- which might affect our body, for example, through metabolism, that leads to different progression through time? 
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+1. [<span style="color:#db0a5b">**Personalized mood prediction from patterns of behavior collected with smartphones**</span>]([https://www.nature.com/articles/s41746-024-01035-6) <br> Balliu Brunilda, Douglas Chris, Seok Darsol, Shenhav Liat, __Yue Wu__, Chatzopoulou Doxa, Kaiser Bill, Chen Victor, Kim Jennifer, Deverasetty Sandeep, Arnaudova Inna, Gibbons Robert, Congdon Eliza, Craske Michelle, G, Freimer Nelson, B, Halperin Eran, B, Sankararaman Sriram, Flint Jonathan;*npj Digital Medicine 2024* 
