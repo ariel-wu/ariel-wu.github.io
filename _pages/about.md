@@ -29,7 +29,7 @@ We all get sick. But how genomics is related to the risk of disease? Let's zoom 
 
 1. [<span style="color:#db0a5b"> **A unifying framework of statistics impuatation**</span>](https://www.liebertpub.com/doi/full/10.1089/cmb.2019.0449)<br> __Yue Wu__, Eleazar Eskin, Sriram Sankararaman; *Journal of Computational Biology 2018*.
 
-2. [<span style="color:#db0a5b">**Improving imputation accuracy by inferring causal variants in genetic studies**</span>](https://www.liebertpub.com/doi/full/10.1089/cmb.2018.0139)<br> __Yue Wu*__, Farhad Hormozdiari*, Joon Wha J.Joo, Eleazar Eskin; *Research in Computational Molecular Biology 2017*.
+2. [<span style="color:#db0a5b">**Improving imputation accuracy by inferring causal variants in genetic studies**</span>](https://www.liebertpub.com/doi/full/10.1089/cmb.2018.0139)<br> __Yue Wu__*, Farhad Hormozdiari*, Joon Wha J.Joo, Eleazar Eskin; *Research in Computational Molecular Biology 2017*.
 
 
 
